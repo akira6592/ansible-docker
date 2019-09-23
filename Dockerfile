@@ -1,4 +1,4 @@
 FROM centos:7
 
-RUN curl https://bootstrap.pypa.io/get-pip.py | python
+RUN yum install python3 -y
 RUN pip install ansible
