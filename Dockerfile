@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:8
 
 RUN yum install python3 -y
-RUN pip3.6 install ansible ansible-lint
+RUN pip3 install ansible paramiko yamllint ansible-lint 
